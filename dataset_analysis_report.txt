@@ -1,0 +1,61 @@
+==============================================================
+  ML DATASET ANALYSIS REPORT
+==============================================================
+
+  1. SOURCE DATA SUMMARY
+  ----------------------------------------------------------
+  MMT9          15,572 sats     344,627 tracks     322,799,400 pts
+  SDLCD            779 sats       2,208 tracks         662,482 pts
+  TOTAL         16,351 sats     346,835 tracks     323,461,882 pts
+
+  2. FILTERING REPORT
+  ----------------------------------------------------------
+  Too few points (<20):   355,936
+  Too short (<5.0s):         29,021
+  Zero variance:                       0
+  Excessive NaN (>10%):              0
+  Gap splits created:           +674,158
+  Tracks after filtering:        636,036  (62.3% retained)
+
+  3. TLE COVERAGE
+  ----------------------------------------------------------
+  Tracks with TLE:     623,874  (97.3%)
+  Tracks without TLE:   17,162  (2.7%)
+  Mean TLE age:           17.5 days
+  Median TLE age:          0.3 days
+
+  4. LABEL AVAILABILITY
+  ----------------------------------------------------------
+  Has A/M ratio:     604,753 tracks  (94.3%)
+  Has object type:   640,515 tracks  (99.9%)
+  Has shape:         610,414 tracks  (95.2%)
+
+  5. CLASS DISTRIBUTION BY SPLIT
+  ----------------------------------------------------------
+  train   Debris: 27,034 | Payload: 277,485 | Rocket Body: 135,915
+  val     Debris: 6,486 | Payload: 61,629 | Rocket Body: 40,392
+  test    Debris: 5,503 | Payload: 54,458 | Rocket Body: 31,613
+
+  6. A/M RATIO DISTRIBUTION
+  ----------------------------------------------------------
+  Count:      604,753
+  Min:       0.000182 m²/kg
+  Median:    0.013292 m²/kg
+  Max:      10.869002 m²/kg
+
+  7. RESAMPLING QUALITY
+  ----------------------------------------------------------
+  Resampled to: 1024 points
+  Mean mask coverage:  94.9% real data
+  Median:              99.0% real data
+  <25% real:           1,552 tracks
+  >90% real:           521,000 tracks
+  MMT9: mean 94.9% real
+  SDLCD: mean 98.8% real
+
+  8. PER-SOURCE CONTRIBUTION
+  ----------------------------------------------------------
+  MMT9        15,444 sats   637,586 tracks   601,409 with A/M
+  SDLCD          771 sats     3,450 tracks     3,344 with A/M
+
+==============================================================

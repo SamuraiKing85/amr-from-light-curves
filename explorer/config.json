@@ -1,0 +1,13 @@
+{
+  "geometry": "1536x793+-44+154",
+  "mmt9_lc_dir": "C:\\Users\\User\\Downloads\\space-debris-ml-complete\\space-debris-ml\\data\\processed\\mmt9\\lightcurves",
+  "sdlcd_lc_dir": "C:\\Users\\User\\Downloads\\space-debris-ml-complete\\space-debris-ml\\data\\processed\\sdlcd\\lightcurves",
+  "tle_dir": "C:\\Users\\User\\Downloads\\space-debris-ml-complete\\space-debris-ml\\data\\processed\\tle\\tle_histories",
+  "path_discos": "C:\\Users\\User\\Downloads\\space-debris-ml-complete\\space-debris-ml\\data\\processed\\discos\\discos_catalogue.csv",
+  "path_mmt9": "C:\\Users\\User\\Downloads\\space-debris-ml-complete\\space-debris-ml\\data\\processed\\mmt9\\catalogue.csv",
+  "path_sdlcd": "C:\\Users\\User\\Downloads\\space-debris-ml-complete\\space-debris-ml\\data\\processed\\sdlcd\\catalogue.csv",
+  "path_tle": "C:\\Users\\User\\Downloads\\space-debris-ml-complete\\space-debris-ml\\data\\processed\\tle\\tle_index.csv",
+  "theme": "light",
+  "path_satcat": "C:/Users/User/Downloads/space-debris-ml-complete/space-debris-ml/data/raw/discos/satcat.csv",
+  "path_ucs": "C:/Users/User/Downloads/space-debris-ml-complete/space-debris-ml/data/raw/discos/UCS-Satellite-Database-Officialname 5-1-2023.xlsx"
+}

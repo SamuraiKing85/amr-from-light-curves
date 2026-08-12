@@ -26,6 +26,10 @@ __pycache__/
 venv/
 env/
 
+# Windows shortcuts and archives (leak local paths / duplicate source)
+*.lnk
+*.zip
+
 # Editors and OS
 .vs/
 .vscode/

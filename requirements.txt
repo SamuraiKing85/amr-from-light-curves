@@ -1,0 +1,18 @@
+# Core numerical / data
+numpy
+pandas
+scipy
+pyarrow
+
+# Machine learning
+torch
+scikit-learn
+
+# Plotting
+matplotlib
+
+# Data acquisition
+requests
+urllib3
+beautifulsoup4
+tqdm
