@@ -1,0 +1,44 @@
+# Credentials -- never commit these
+config/credentials.json
+
+# Data, checkpoints and pipeline outputs (~30 GB)
+data/
+*.npz
+*.npy
+*.parquet
+*.pt
+*.pth
+*.ckpt
+
+# Figures produced by the pipeline
+paper_figures/
+pub_*.pdf
+pub_*.png
+
+# Backups left by the figure patching tool
+*.orig
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Editors and OS
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+figures.log
+
+# Generated analysis output (folder is currently empty)
+analysis/
