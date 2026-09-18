@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper it accompanies."
+title: "amr-from-light-curves: machine learning characterisation of space objects from light curves and orbital parameters"
+abstract: >-
+  Pipeline for estimating the area-to-mass ratio of catalogued space objects
+  and classifying object type, by combining public optical light curves from
+  MMT-9 and SDLCD with orbital parameters derived from Space-Track two-line
+  element histories, validated against ESA DISCOS ground truth.
+type: software
+version: v1.0.0
+date-released: "2026-09-18"
+license: MIT
+repository-code: "https://github.com/SamuraiKing85/amr-from-light-curves"
+doi: 10.5281/zenodo.22821484
+authors:
+  - family-names: Pinkney
+    given-names: Jay
+    orcid: "https://orcid.org/0009-0004-9962-0724"
+    affiliation: Northumbria University
+  - family-names: Moorton
+    given-names: Zoe
+    orcid: "https://orcid.org/0009-0007-2099-6924"
+    affiliation: Northumbria University
+keywords:
+  - space situational awareness
+  - area-to-mass ratio
+  - light curves
+  - multi-modal fusion
+  - space debris
+  - machine learning
+  - explainable AI
+  - reproducibility
+preferred-citation:
+  type: conference-paper
+  title: >-
+    Fusing Light Curves and Orbital Parameters for Machine Learning-Based
+    Characterisation of Space Objects: A Reproducible Study on Public Data
+  collection-title: "Proceedings of the 17th International Conference on Global Security, Safety and Sustainability (ICGS3-26)"
+  publisher:
+    name: Springer
+  year: 2026
+  authors:
+    - family-names: Pinkney
+      given-names: Jay
+      orcid: "https://orcid.org/0009-0004-9962-0724"
+      affiliation: Northumbria University
+    - family-names: Moorton
+      given-names: Zoe
+      orcid: "https://orcid.org/0009-0007-2099-6924"
+      affiliation: Northumbria University
