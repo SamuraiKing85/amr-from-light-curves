@@ -65,7 +65,7 @@ quality filtering (62.3%).
 Python 3.10 or later.
 
 ```bash
-git clone https://github.com/<your-username>/amr-from-light-curves.git
+git clone https://github.com/SamuraiKing85/amr-from-light-curves.git
 cd amr-from-light-curves
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
