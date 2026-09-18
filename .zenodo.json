@@ -1,0 +1,30 @@
+{
+  "title": "amr-from-light-curves: machine learning characterisation of space objects from light curves and orbital parameters",
+  "description": "Code accompanying the ICGS3-26 paper 'Fusing Light Curves and Orbital Parameters for Machine Learning-Based Characterisation of Space Objects: A Reproducible Study on Public Data'. The pipeline estimates area-to-mass ratio and classifies object type by combining public optical light curves from MMT-9 and SDLCD with orbital parameters derived from Space-Track two-line element histories, validated against ESA DISCOS ground truth.",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Pinkney, Jay",
+      "affiliation": "Northumbria University",
+      "orcid": "0009-0004-9962-0724"
+    },
+    {
+      "name": "Moorton, Zoe",
+      "affiliation": "Northumbria University",
+      "orcid": "0009-0007-2099-6924"
+    }
+  ],
+  "keywords": [
+    "space situational awareness",
+    "area-to-mass ratio",
+    "light curves",
+    "multi-modal fusion",
+    "space debris",
+    "machine learning",
+    "explainable AI",
+    "reproducibility"
+  ],
+  "language": "eng"
+}
